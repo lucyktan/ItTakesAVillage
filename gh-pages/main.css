@@ -1,0 +1,54 @@
+.sidebar {
+	text-align: right;
+	width: 15%;
+	position: fixed;
+	margin-top: 15%;
+}
+
+.sidebar a {
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	display: inline-block;
+	color: black;
+}
+
+.sidebar li {
+	display: block;
+}
+
+.home {
+	text-align: left;
+	font-family: 'Merriweather', 'Garamond', serif;
+	background-position: center;
+	margin: 5% auto 3% auto;
+	width: 50%;
+}
+.content {
+	width: 50%;
+	background-position: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14;
+}
+
+.content #text {
+	line-height: 180%;
+	color: black;
+}
+
+.content #subheading {
+	font-family: 'Merriweather', 'Garamond', serif;
+	font-size: 20;
+	line-height: 200%;
+}
+
+#footer p, a{
+	font-family: 'Merriweather', 'Garamond', serif;
+	font-size: 14;
+	text-align: center;
+	color: black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
