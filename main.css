@@ -8,9 +8,9 @@
 .sidebar a {
 	text-decoration: none;
 	font-family: 'Merriweather', serif;
-	font-size: 18px;
+	font-size: 100%;
 	display: inline-block;
-	color: black;
+	color: grey;
 	padding-top: 5px;
 	padding-bottom: 15px;
 }
@@ -32,24 +32,44 @@
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Oxygen', sans-serif;
-	font-size: 14;
 }
 
 .content #text {
 	line-height: 180%;
 	color: black;
+	font-size: 90%;
+	text-transform: none;
+}
+
+.content a {
+	font-family: 'Oxygen', sans-serif;
+	color: black;
 }
 
 .content #subheading {
 	font-family: 'Merriweather', 'Garamond', serif;
-	font-size: 20;
-	line-height: 200%;
+	font-size: 123%;
+	padding-top: 30px;
 }
 
-#footer p, a{
+.content img {
+	width: 100%;
+	margin: 20px auto 20px auto;
+}
+
+.footer {
+	margin-bottom: 15%;
+	width: 50%;
+	margin: 5% auto 7% auto;
+}
+
+.footer p {
 	font-family: 'Merriweather', 'Garamond', serif;
-	font-size: 14;
-	color: black;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	font-size: 100%;
+	color: grey;
+}
+
+.footer a {
+	color: grey;
+	font-family: 'Merriweather', 'Garamond', serif;
 }
